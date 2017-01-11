@@ -1,0 +1,15 @@
+add find method -> setid + charger
+alter cours table -> ajouter id_niveau
+
+-----------------
+class Date et time
+http://www.ece.uc.edu/~franco/C321/html/date.html
+
+----------------------
+
+create menu choice
+http://code.runnable.com/UpPyJupVxuNGAAAq/simple-options-menu-using-do-while-loop-for-c%2B%2B
+
+
+Tracer l emploi du temps
+https://github.com/haarcuba/cpp-text-table/blob/master/TextTable.h

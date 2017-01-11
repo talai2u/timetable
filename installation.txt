@@ -1,0 +1,26 @@
+La mise en place du projet
+    
+    +Sur CodeLite (Ubuntu)
+    1-Installation de libmysqlclient-dev. (sudo apt-get install libmysqlclient-dev)
+    2-dans CodeLite: bouton droit sur le projet -> settings -> Linker -> Linker options = "-L/usr/lib/mysql;-lmysqlclient;"
+    3-Pour la base de données y'a 2 possibilités: (les champs à paramétrer sur database.h)
+        -Connexion en Local:
+            _host = "";
+            _login ="your_login";
+            _password = "your_pwd";
+            _dbname = "your_db_name";
+    
+        -Connexion sur le serveur alwaysdata:
+            _host = "mysql1.paris1.alwaysdata.com";
+            _login ="talai";
+            _password = "talai2016";
+            _dbname = "talai_qp";
+    
+    
+    +Sur CodeBloc (windows)
+    changer les lignes 7 et 8 sur database.h par :
+    #include <windows.h> //#include </usr/include/mysql/mysql.h>
+    #include <mysql.h>  //#include </usr/include/mysql/my_global.h>
+    
+    Vous trouverez la suites des instructions sur http://sudarshan-cppmysql.blogspot.fr/
+    
